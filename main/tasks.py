@@ -17,7 +17,7 @@ app = Celery(
 app.autodiscover_tasks(["tasks"])
 
 
-@app.task()
+@app.task(name="main.tasks.add")
 def add(x, y):
     return x + y
 
