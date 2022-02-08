@@ -1,0 +1,6 @@
+# virtualenv
+start.sh
+
+# cache
+**__pycache__/
+*.pyc
